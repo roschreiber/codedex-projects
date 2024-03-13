@@ -23,11 +23,11 @@ ul .images {
     transition: transform 0.56s;
 }
 
-img:hover {
+.images:hover {
     transform: scale(1.075);
 }
 
-img:not(:hover) {
+.images:not(:hover) {
     transform: scale(1);
 }
 
@@ -72,4 +72,16 @@ footer {
 
 .icons:not(:hover) {
     transform: scale(1);
+}
+
+#gif1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#gif2 {
+    position: absolute;
+    bottom: auto;
+    left: 0;
 }
