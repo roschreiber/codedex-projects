@@ -1,87 +1,88 @@
 * {
     box-sizing: border-box;
-}
-
-body {
+  }
+  
+  body {
     font-family: Arial, sans-serif;
-}
-
-header {
+  }
+  
+  header {
     text-align: center;
-}
-
-ul .images {
+  }
+  
+  ul .images {
     width: 75%;
-}
-
-.images {
+  }
+  
+  .images {
     display: block;
     margin: auto;
     border-radius: 3%;
     width: 10.5%;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     transition: transform 0.56s;
-}
-
-.images:hover {
+  }
+  
+  .images:hover {
     transform: scale(1.075);
-}
-
-.images:not(:hover) {
+  }
+  
+  .images:not(:hover) {
     transform: scale(1);
-}
-
-nav ul {
+  }
+  
+  nav ul {
     display: flex;
     justify-content: center;
     list-style-type: none;
     padding: 0;
-}
-
-a {
+  }
+  
+  a {
     text-decoration: none;
     color: black;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s;
-}
-
-nav ul li {
+  }
+  
+  nav ul li {
     margin: 0 20px;
-}
-
-section {
+  }
+  
+  section {
     display: inline-block;
     vertical-align: top;
     width: 33%;
     padding: 10px;
     box-sizing: border-box;
-}
-
-footer {
+  }
+  
+  footer {
     text-align: center;
     display: block;
-}
-
-.icons:hover {
+  }
+  
+  .icons:hover {
     transform: scale(1.2);
-}
-
-.icons {
+  }
+  
+  .icons {
     transition: transform 0.3s;
-}
-
-.icons:not(:hover) {
+  }
+  
+  .icons:not(:hover) {
     transform: scale(1);
-}
-
-#gif1 {
+  }
+  
+  #gif1 {
     position: absolute;
     bottom: 0;
     right: 0;
-}
-
-#gif2 {
+  }
+  
+  #gif2 {
     position: absolute;
     bottom: auto;
     left: 0;
-}
+  }
+  
