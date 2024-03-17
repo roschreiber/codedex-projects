@@ -10,8 +10,12 @@
     text-align: center;
   }
   
-  ul .images {
+  #projects .images {
     width: 75%;
+  }
+
+  #projects p {
+    text-align: center;
   }
   
   .images {
@@ -28,6 +32,18 @@
   }
   
   .images:not(:hover) {
+    transform: scale(1);
+  }
+
+  .icons:hover {
+    transform: scale(1.2);
+  }
+  
+  .icons {
+    transition: transform 0.3s;
+  }
+  
+  .icons:not(:hover) {
     transform: scale(1);
   }
   
@@ -60,18 +76,6 @@
   footer {
     text-align: center;
     display: block;
-  }
-  
-  .icons:hover {
-    transform: scale(1.2);
-  }
-  
-  .icons {
-    transition: transform 0.3s;
-  }
-  
-  .icons:not(:hover) {
-    transform: scale(1);
   }
   
   #gif1 {
